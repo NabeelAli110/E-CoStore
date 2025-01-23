@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="product.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+		integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="product.js" defer></script>
+    <script src="/app.js" defer></script>
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo"> E-CoStore </div>
+      <div class="navbar-toggle" onclick="toggleMenu()">☰</div>
+      <div class="navbar-menu">
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="product.html">About Us</a>
+        <a href="cart.html">Cart</a>
+      </div>
+      <div class="navbar-menu-mobile" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="cart.html">Cart</a>
+      </div>
+    </nav>
+     <!-- first secrion start -->
+     <div class="small-container">
+      <div class="row_2">
+          <h2>All Products</h2>
+          <select name="" id="">
+              <option value="default">Default Sorting</option>
+              <option value="by_price">Short by price</option>
+              <option value="by_popularity">Short by popularity</option>
+              <option value="by_rating">Short by rating</option>
+              <option value="by_sale">Short by sale</option>
+          </select>
+      </div>
+  </div>
+  <!-- first section End -->
+    <main>
+      <h1>Product Listing</h1>
+      <div id="product-list" class="product-list">
+        
+      </div>
+    </main>
+<!-- footer section start -->
+<div class="fotersection">
+  <div class="sec_1">
+    <h4>Download oue app</h4>
+    <p>Download App for Android and ios mobile <br> phone.</p>
+    <div class="secimages">
+      <img src="https://rsanimesh.github.io/images/play-store.png" alt="Play_Store">
+      <img src="https://rsanimesh.github.io/images/app-store.png" alt="App_Store">
+    </div>
+  </div>
+  <div class="sec_2">
+    <img src="https://rsanimesh.github.io/images/logo-white.png" alt="logo">
+    <div class="navbar-logo"> E-CoStore </div>
+
+    <p>Our Purpose Is To Sustainably Make <br> the Pleasure and Benefits of Sports <br> Accessible to the Many.
+    </p>
+  </div>
+  <div class="sec_3">
+    <h4>Useful Links</h4>
+    <li>Coupons</li>
+    <li>Blog Post</li>
+    <li>Return Policy</li>
+    <li>Join Affiliate</li>
+  </div>
+  <div class="sec_4">
+    <h4>Follow us</h4>
+    <li><a href="https://www.facebook.com/">FaceBook</a></li>
+    <li><a href="">Twitter</a></li>
+    <li><a href="https://www.instagram.com/">Instagram</a></li>
+    <li><a href="https://www.youtube.com/">Youtube</a></li>
+  </div>
+</div>
+<!-- footer section End -->
+    
+  </body>
+</html>
